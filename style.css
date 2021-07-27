@@ -1,0 +1,104 @@
+ * {
+  box-sizing: border-box;
+}
+
+.swiper{
+
+}
+
+.swiper-title {
+  margin-bottom: 40px;
+  font-family: "MuseoSansCyrl";
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171718;
+}
+
+.swiper-container {
+  width: 1200px;
+}
+.swiper-wrapper {
+  padding: 10px;
+  display: flex;
+}
+
+.swiper-slide {
+  max-width: 820px;
+  max-height: 202px;
+  margin-right: 20px;
+  padding: 30px 35px 30px 35px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 4px 32px 0 rgba(157, 169, 194, 0.24);
+  background-color: #ffffff;
+}
+
+.swiper-slide-name-icon {
+  height: 150px;
+}
+
+.swiper-slide-name {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171718;
+  margin-bottom: 64px;
+}
+
+.swiper-slide-icon {
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.swiper-slide-text {
+  margin-left: 49px;
+  margin-right: 121px;
+  padding-left: 25px;
+  border-left: 5px solid #7a6ca7;
+  text-align: left;
+}
+
+.swiper-slide-text p{
+  margin: 0;
+  margin-bottom:16px ;
+}
+
+.swiper-button-next::after,.swiper-button-prev::after {
+  font-size: 27.74px;
+  font-weight: 600;
+  color: #7F5AF0;
+}
+
+.swiper-button-next {
+  
+  top: 60px;
+  right: 640px;
+}
+
+.swiper-button-prev {
+  top: 60px;
+  left: 489px;
+} 
+
+.swiper-container::after {
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,0) 68%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,0) 68%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,0) 68%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffffff",GradientType=1);
+}
